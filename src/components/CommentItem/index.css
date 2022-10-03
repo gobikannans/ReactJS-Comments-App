@@ -1,0 +1,117 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.commentBox-container {
+  background-color: #ffffff;
+  width: 100%;
+  border: 0px 0px 2px 0px;
+  box-shadow: 0px 0px 2px 0px #7e858e;
+  padding: 10px;
+  padding-top: 0px;
+}
+.top-comment-container {
+  display: flex;
+  flex-direction: row;
+}
+.initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.username-container {
+  margin-left: 10px;
+  display: flex;
+  height: 2vh;
+}
+
+.initial-name {
+  color: #ffffff;
+}
+
+.username {
+  color: #334155;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.comment {
+  color: #64748b;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-left: 40px;
+}
+.time {
+  color: #94a3b8;
+  font-size: 11px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-like-style {
+  color: #0ea5e9;
+  font-size: 13px;
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: 0px;
+  margin-top: 3px;
+}
+
+.normal-style {
+  color: #7e858e;
+  font-size: 13px;
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: 0px;
+  margin-top: 3px;
+}
+
+.btn-delete-style {
+  background-color: transparent;
+  border: 0px;
+}
